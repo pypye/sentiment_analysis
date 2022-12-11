@@ -7,9 +7,10 @@ DATASET_TRAIN_IMAGE_FOLDER = '{BASE_DIR}/int3405-ml-preprocess-image-data-v2/ima
 DATASET_TEST_TEXT_FILE = '{BASE_DIR}/machine-learning-preproc/test_labelled_segmented.csv'
 DATASET_TEST_IMAGE_FOLDER = '{BASE_DIR}/int3405-ml-preprocess-image-data-v2/image_test_resized'
 ```
-- Secondly, make sure **internet is connected** for model downloading and **GPU is activated** for model training.
-- Thirdly, run all the cell in [int3405-phobert-vgg11.ipynb](https://github.com/pypye/sentiment_analysis/blob/main/int3405-phobert-vgg11.ipynb) and wait.
-- Fourthly, we use **submission.csv** file to submit to [INT3405 - Sentiment Analysis Problem](https://www.kaggle.com/competitions/int3405-sentiment-analysis-problem)
+- Secondly, install python library file in [requirements.txt](https://github.com/pypye/sentiment_analysis/blob/main/requirements.txt) if run in local, otherwise Colab or Kaggle, just skip this step.
+- Thirdly, make sure **internet is connected** for model downloading and **GPU is activated** for model training.
+- Fourthly, run all the cell in [int3405-phobert-vgg11.ipynb](https://github.com/pypye/sentiment_analysis/blob/main/int3405-phobert-vgg11.ipynb) and wait for training.
+- Finally, we use **submission.csv** file to submit to [INT3405 - Sentiment Analysis Problem](https://www.kaggle.com/competitions/int3405-sentiment-analysis-problem)
 ```py
 review_d.to_csv("submission.csv", index=False)
 ```
