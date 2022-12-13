@@ -1,6 +1,6 @@
 # Sentiment Analysis Run and Submit Tutorial
 *Sentiment Analysis by INT3405E_41_DMT (Duc Tran Van, Minh Tan Nguyen, Trung Hoang Nguyen)*
-- Firstly, download [data.zip](https://github.com/pypye/sentiment_analysis/blob/main/data.zip) file above and then open [int3405-phobert-vgg11.ipynb](https://github.com/pypye/sentiment_analysis/blob/main/int3405-phobert-vgg11.ipynb) config the cell like this, {BASE_DIR} is your current dataset directory.
+- Firstly, download [data.zip](https://github.com/pypye/sentiment_analysis/blob/main/data.zip) file above then extract and then open [int3405-phobert-vgg11.ipynb](https://github.com/pypye/sentiment_analysis/blob/main/int3405-phobert-vgg11.ipynb) config the cell like this, {BASE_DIR} is your current dataset directory you have extracted.
 ```py
 DATASET_TRAIN_TEXT_FILE = '{BASE_DIR}/machine-learning-preproc/train_merged_segmented_v2.csv'
 DATASET_TRAIN_IMAGE_FOLDER = '{BASE_DIR}/int3405-ml-preprocess-image-data-v2/image_train_resized'
